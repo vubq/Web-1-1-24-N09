@@ -1,0 +1,36 @@
+﻿@model IEnumerable<Major>
+<div class="form-group row">
+    <div class="col-3">
+        <select id="majorID" class="form-select mb-2 w-10">
+            <option value="-1">All</option>
+            @foreach (var m in Model)
+            {
+                <option value="@m.MajorID">@m.MajorName</option>
+            }
+        </select>
+    </div>
+
+    <form class="col-5">
+        <div class="input-group">
+            <input id="keyword" class="form-control" name="keyword"
+                   type="text" placeholder="Search learner" />
+            <button id="btnSearch" class="btn btn-primary" type="button">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+    </form>
+</div>
+
+@*
+<ul class="nav">
+    <li class="nav-item" id="-1" style="cursor: pointer">
+        <a class="nav-link">All</a>
+    </li>
+    @foreach (var m in Model)
+    {
+        <li class="nav-item" mid="@m.MajorID" style="cursor: pointer">
+            <a class="nav-link">@m.MajorName</a>
+        </li>
+    }
+</ul>
+*@

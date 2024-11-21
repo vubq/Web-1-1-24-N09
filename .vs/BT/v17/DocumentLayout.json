@@ -1,0 +1,306 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Study\\WEB\\BT\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AE353696-446E-4EC6-A05D-5DB7F862DC18}|BT.csproj|d:\\study\\web\\bt\\views\\learner\\learnertable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE353696-446E-4EC6-A05D-5DB7F862DC18}|BT.csproj|solutionrelative:views\\learner\\learnertable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE353696-446E-4EC6-A05D-5DB7F862DC18}|BT.csproj|d:\\study\\web\\bt\\views\\shared\\components\\render\\renderleftmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE353696-446E-4EC6-A05D-5DB7F862DC18}|BT.csproj|solutionrelative:views\\shared\\components\\render\\renderleftmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE353696-446E-4EC6-A05D-5DB7F862DC18}|BT.csproj|d:\\study\\web\\bt\\views\\shared\\components\\major\\rendermajor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE353696-446E-4EC6-A05D-5DB7F862DC18}|BT.csproj|solutionrelative:views\\shared\\components\\major\\rendermajor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE353696-446E-4EC6-A05D-5DB7F862DC18}|BT.csproj|d:\\study\\web\\bt\\views\\learner\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE353696-446E-4EC6-A05D-5DB7F862DC18}|BT.csproj|solutionrelative:views\\learner\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE353696-446E-4EC6-A05D-5DB7F862DC18}|BT.csproj|d:\\study\\web\\bt\\views\\learner\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE353696-446E-4EC6-A05D-5DB7F862DC18}|BT.csproj|solutionrelative:views\\learner\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE353696-446E-4EC6-A05D-5DB7F862DC18}|BT.csproj|d:\\study\\web\\bt\\views\\learner\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE353696-446E-4EC6-A05D-5DB7F862DC18}|BT.csproj|solutionrelative:views\\learner\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE353696-446E-4EC6-A05D-5DB7F862DC18}|BT.csproj|d:\\study\\web\\bt\\controllers\\learnercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE353696-446E-4EC6-A05D-5DB7F862DC18}|BT.csproj|solutionrelative:controllers\\learnercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE353696-446E-4EC6-A05D-5DB7F862DC18}|BT.csproj|d:\\study\\web\\bt\\views\\learner\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE353696-446E-4EC6-A05D-5DB7F862DC18}|BT.csproj|solutionrelative:views\\learner\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE353696-446E-4EC6-A05D-5DB7F862DC18}|BT.csproj|d:\\study\\web\\bt\\views\\shared\\leftmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE353696-446E-4EC6-A05D-5DB7F862DC18}|BT.csproj|solutionrelative:views\\shared\\leftmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE353696-446E-4EC6-A05D-5DB7F862DC18}|BT.csproj|d:\\study\\web\\bt\\viewcomponents\\majorviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE353696-446E-4EC6-A05D-5DB7F862DC18}|BT.csproj|solutionrelative:viewcomponents\\majorviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE353696-446E-4EC6-A05D-5DB7F862DC18}|BT.csproj|d:\\study\\web\\bt\\models\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE353696-446E-4EC6-A05D-5DB7F862DC18}|BT.csproj|solutionrelative:models\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE353696-446E-4EC6-A05D-5DB7F862DC18}|BT.csproj|d:\\study\\web\\bt\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE353696-446E-4EC6-A05D-5DB7F862DC18}|BT.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE353696-446E-4EC6-A05D-5DB7F862DC18}|BT.csproj|d:\\study\\web\\bt\\views\\shared\\mylayouthelper.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE353696-446E-4EC6-A05D-5DB7F862DC18}|BT.csproj|solutionrelative:views\\shared\\mylayouthelper.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE353696-446E-4EC6-A05D-5DB7F862DC18}|BT.csproj|d:\\study\\web\\bt\\views\\shared\\mylayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE353696-446E-4EC6-A05D-5DB7F862DC18}|BT.csproj|solutionrelative:views\\shared\\mylayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE353696-446E-4EC6-A05D-5DB7F862DC18}|BT.csproj|d:\\study\\web\\bt\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE353696-446E-4EC6-A05D-5DB7F862DC18}|BT.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE353696-446E-4EC6-A05D-5DB7F862DC18}|BT.csproj|d:\\study\\web\\bt\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE353696-446E-4EC6-A05D-5DB7F862DC18}|BT.csproj|solutionrelative:views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 261,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LearnerController.cs",
+              "DocumentMoniker": "D:\\Study\\WEB\\BT\\Controllers\\LearnerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LearnerController.cs",
+              "ToolTip": "D:\\Study\\WEB\\BT\\Controllers\\LearnerController.cs",
+              "RelativeToolTip": "Controllers\\LearnerController.cs",
+              "ViewState": "AQIAAJ4AAAAAAAAAAAAAAKcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T13:42:51.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Study\\WEB\\BT\\Views\\Learner\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Learner\\Index.cshtml",
+              "ToolTip": "D:\\Study\\WEB\\BT\\Views\\Learner\\Index.cshtml",
+              "RelativeToolTip": "Views\\Learner\\Index.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAFYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T13:37:07.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RenderMajor.cshtml",
+              "DocumentMoniker": "D:\\Study\\WEB\\BT\\Views\\Shared\\Components\\Major\\RenderMajor.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Components\\Major\\RenderMajor.cshtml",
+              "ToolTip": "D:\\Study\\WEB\\BT\\Views\\Shared\\Components\\Major\\RenderMajor.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Components\\Major\\RenderMajor.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAwAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T16:34:32.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Study\\WEB\\BT\\Views\\Learner\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Learner\\Create.cshtml",
+              "ToolTip": "D:\\Study\\WEB\\BT\\Views\\Learner\\Create.cshtml",
+              "RelativeToolTip": "Views\\Learner\\Create.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACIAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T13:37:11.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LearnerTable.cshtml",
+              "DocumentMoniker": "D:\\Study\\WEB\\BT\\Views\\Learner\\LearnerTable.cshtml",
+              "RelativeDocumentMoniker": "Views\\Learner\\LearnerTable.cshtml",
+              "ToolTip": "D:\\Study\\WEB\\BT\\Views\\Learner\\LearnerTable.cshtml",
+              "RelativeToolTip": "Views\\Learner\\LearnerTable.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAC8AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T16:47:15.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Study\\WEB\\BT\\Views\\Learner\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Learner\\Delete.cshtml",
+              "ToolTip": "D:\\Study\\WEB\\BT\\Views\\Learner\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Learner\\Delete.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACkAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T16:12:59.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RenderLeftMenu.cshtml",
+              "DocumentMoniker": "D:\\Study\\WEB\\BT\\Views\\Shared\\Components\\Render\\RenderLeftMenu.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Components\\Render\\RenderLeftMenu.cshtml",
+              "ToolTip": "D:\\Study\\WEB\\BT\\Views\\Shared\\Components\\Render\\RenderLeftMenu.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Components\\Render\\RenderLeftMenu.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T17:48:57.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Study\\WEB\\BT\\Views\\Learner\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Learner\\Edit.cshtml",
+              "ToolTip": "D:\\Study\\WEB\\BT\\Views\\Learner\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Learner\\Edit.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAB8AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T15:51:08.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LeftMenu.cshtml",
+              "DocumentMoniker": "D:\\Study\\WEB\\BT\\Views\\Shared\\LeftMenu.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\LeftMenu.cshtml",
+              "ToolTip": "D:\\Study\\WEB\\BT\\Views\\Shared\\LeftMenu.cshtml",
+              "RelativeToolTip": "Views\\Shared\\LeftMenu.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T17:36:59.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MajorViewComponent.cs",
+              "DocumentMoniker": "D:\\Study\\WEB\\BT\\ViewComponents\\MajorViewComponent.cs",
+              "RelativeDocumentMoniker": "ViewComponents\\MajorViewComponent.cs",
+              "ToolTip": "D:\\Study\\WEB\\BT\\ViewComponents\\MajorViewComponent.cs",
+              "RelativeToolTip": "ViewComponents\\MajorViewComponent.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAQwA8AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T16:32:08.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Study\\WEB\\BT\\Views\\Student\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\Create.cshtml",
+              "ToolTip": "D:\\Study\\WEB\\BT\\Views\\Student\\Create.cshtml",
+              "RelativeToolTip": "Views\\Student\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T13:37:41.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MyLayout.cshtml",
+              "DocumentMoniker": "D:\\Study\\WEB\\BT\\Views\\Shared\\MyLayout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\MyLayout.cshtml",
+              "ToolTip": "D:\\Study\\WEB\\BT\\Views\\Shared\\MyLayout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\MyLayout.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T16:56:18.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MyLayoutHelper.cshtml",
+              "DocumentMoniker": "D:\\Study\\WEB\\BT\\Views\\Shared\\MyLayoutHelper.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\MyLayoutHelper.cshtml",
+              "ToolTip": "D:\\Study\\WEB\\BT\\Views\\Shared\\MyLayoutHelper.cshtml",
+              "RelativeToolTip": "Views\\Shared\\MyLayoutHelper.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACIAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T16:56:24.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Gender.cs",
+              "DocumentMoniker": "D:\\Study\\WEB\\BT\\Models\\Gender.cs",
+              "RelativeDocumentMoniker": "Models\\Gender.cs",
+              "ToolTip": "D:\\Study\\WEB\\BT\\Models\\Gender.cs",
+              "RelativeToolTip": "Models\\Gender.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T17:11:30.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\Study\\WEB\\BT\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\Study\\WEB\\BT\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T17:11:37.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Study\\WEB\\BT\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Study\\WEB\\BT\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T16:32:37.667Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 139,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

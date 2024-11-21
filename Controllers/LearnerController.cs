@@ -1,8 +1,12 @@
 ﻿using BT.Data;
 using BT.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using System.Linq;
+using System.Security.Cryptography;
+using static Microsoft.Extensions.Logging.EventSource.LoggingEventSource;
 
 namespace BT.Controllers
 {
@@ -16,21 +20,63 @@ namespace BT.Controllers
             db = context;
         }
 
-        [Route("List")]
-        public IActionResult Index(int? mid)
+        [Route("Filter")]
+        public IActionResult LearnerFilter(int? page, int? pageSize, int? mid, string? keyword)
         {
-            IQueryable<Learner> learners;
+            var learners = (IQueryable<Learner>)db.Learners;
+
+            page = (int)(page == null || page <= 0 ? 1 : page);
+            pageSize = (int)(pageSize == null || pageSize <= 0 ? 10 : pageSize);
+
             if (mid != null)
             {
-                learners = (IQueryable<Learner>) db.Learners
-                    .Where(l => l.MajorID == mid)
-                    .Include(m => m.Major);
+                learners = learners.Where(l => l.MajorID == mid);
             }
-            else
+            if (keyword != null)
             {
-                learners = db.Learners.Include(m => m.Major);
+                learners = learners
+                    .Where(
+                    l => string.IsNullOrEmpty(keyword) ||
+                    l.LastName.Contains(keyword) ||
+                    l.FirstMidName.Contains(keyword) 
+                    /*|| l.EnrollmentDate.Date.ToString("dd-MM-yyyy").Contains(keyword)*/
+                );
             }
-            return View(learners);
+
+            var totalPage = (int)Math.Ceiling(learners.Count() / (float)pageSize);
+
+            ViewBag.mid = mid;
+            ViewBag.keyword = keyword;
+            ViewBag.totalPage = totalPage;
+            ViewBag.page = page;
+            ViewBag.pageSize = pageSize;
+
+            var result = learners
+                .Skip((int)(pageSize * (page - 1)))
+                .Take((int)pageSize)
+                .Include(m => m.Major);
+            return PartialView("LearnerTable", result);
+        }
+
+        [Route("List")]
+        public IActionResult Index()
+        {
+            /*
+            var learners = (IQueryable<Learner>)db.Learners;
+            if (mid != null)
+            {
+                learners = learners.Where(l => l.MajorID == mid);
+            }
+
+            this.totalPage = (int)Math.Ceiling(learners.Count() / (float)this.pageSize);
+            ViewBag.totalPage = this.totalPage;
+            ViewBag.page = this.page;
+
+            var results = learners
+                .Take(this.pageSize)
+                .Include(m => m.Major);
+            */
+            return View();
         }
 
         [Route("Add")]
@@ -166,11 +212,19 @@ namespace BT.Controllers
         }
 
         [Route("LearnerByMajorID")]
-        public IActionResult LearnerByMajorID(int mid)
+        public IActionResult LearnerByMajorID(int? mid)
         {
-            var learners = db.Learners
-                .Where(l => l.MajorID == mid)
-                .Include(m => m.Major).ToList();
+            IQueryable<Learner> learners;
+            if (mid != null)
+            {
+                learners = (IQueryable<Learner>)db.Learners
+                    .Where(l => l.MajorID == mid)
+                    .Include(m => m.Major);
+            }
+            else
+            {
+                learners = db.Learners.Include(m => m.Major);
+            }
             return PartialView("LearnerTable", learners);
         }
     }
